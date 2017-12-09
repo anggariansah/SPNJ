@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.angga.spnjl2.SignIn">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:background="@drawable/background"
+        android:id="@+id/rel1">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageView3"
+            android:src="@drawable/vs"
+            android:padding="10dp"
+            android:background="@drawable/backimage"
+            android:layout_marginTop="19dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:layout_below="@id/imageView3"
+            android:gravity="center"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/backimage"
+        android:layout_marginTop="-95dp"
+        android:layout_below="@+id/rel1"
+        android:layout_centerHorizontal="true">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/nam"
+            android:layout_marginTop="20dp">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Username"
+                android:id="@+id/user"
+                android:textColor="#000000"
+                android:paddingBottom="20dp"
+                android:textColorHint="#e2e2e2"
+                android:drawableRight="@drawable/ic_user" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:id="@+id/pass"
+            android:layout_below="@+id/nam">
+
+            <android.support.design.widget.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:id="@+id/password"
+                android:textColor="#000000"
+                android:paddingBottom="20dp"
+                android:textColorHint="#e2e2e2"
+                android:inputType="textPassword"
+                android:drawableRight="@drawable/ic_mata" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="Sign In"
+            android:textColor="#fff"
+            android:background="@drawable/rectangle"
+            android:id="@+id/button2"
+            android:layout_below="@+id/pass"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jika Sudah Punya Akun?"
+            android:id="@+id/textView3"
+            android:layout_marginTop="39dp"
+            android:layout_below="@+id/button2"
+            android:layout_alignLeft="@+id/button2"
+            android:layout_alignStart="@+id/button2" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign Up"
+            android:id="@+id/textView2"
+            android:layout_alignBaseline="@+id/textView3"
+            android:layout_alignBottom="@+id/textView3"
+            android:layout_toRightOf="@+id/textView3"
+            android:layout_toEndOf="@+id/textView3"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>

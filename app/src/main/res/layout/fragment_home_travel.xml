@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.angga.spnjl2.SignUp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/background"
+        android:id="@+id/rel1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="You Will Marry Me?"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+    
+    <RelativeLayout
+        android:layout_below="@+id/rel1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/laywhite"
+        android:id="@+id/relativeLayout">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_book"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/mm"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/mm"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/st"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/laywhite"
+        android:layout_above="@+id/relativeLayout2"
+        android:layout_alignRight="@+id/relativeLayout2"
+        android:layout_alignEnd="@+id/relativeLayout2">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_music"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/mg"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Music"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/mg"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/laywhite"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout2">
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_movie"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:id="@+id/mt"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Movie"
+            android:textSize="25dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/mt"/>
+    </RelativeLayout>
+
+</RelativeLayout>

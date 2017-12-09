@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.angga.spnjl2.SignUp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="@drawable/background"
+        android:id="@+id/rel1"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_below="@+id/rel1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-50dp"
+        android:background="@drawable/laywhite"
+        android:id="@+id/relativeLayout"
+        android:layout_alignRight="@+id/relativeLayout2"
+        android:layout_alignEnd="@+id/relativeLayout2">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book"
+            android:textSize="20dp"
+            android:id="@+id/o"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignLeft="@+id/os"
+            android:layout_alignStart="@+id/os" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Book"
+            android:textSize="20dp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/os"
+            android:layout_marginLeft="23dp"
+            android:layout_marginStart="23dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apa"
+            android:textSize="20dp"
+            android:id="@+id/oso"
+            android:layout_alignBaseline="@+id/button4"
+            android:layout_alignBottom="@+id/button4"
+            android:layout_alignLeft="@+id/po"
+            android:layout_alignStart="@+id/po" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apa"
+            android:textSize="20dp"
+            android:id="@+id/po"
+            android:layout_alignBaseline="@+id/os"
+            android:layout_alignBottom="@+id/os"
+            android:layout_toLeftOf="@+id/pou"
+            android:layout_toStartOf="@+id/pou"
+            android:layout_marginRight="56dp"
+            android:layout_marginEnd="56dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sheet"
+            android:textSize="20dp"
+            android:id="@+id/pou"
+            android:layout_alignBaseline="@+id/po"
+            android:layout_alignBottom="@+id/po"
+            android:layout_alignLeft="@+id/button4"
+            android:layout_alignStart="@+id/button4"
+            android:layout_marginLeft="11dp"
+            android:layout_marginStart="11dp" />
+
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:background="@drawable/rectangle"
+            android:textColor="#fff"
+            android:text="Find Now"
+            android:textSize="10dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="19dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="14dp"
+            android:id="@+id/button4" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/laywhite"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/relativeLayout"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout2">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/background"
+            android:id="@+id/imageView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku Anda"
+            android:textSize="14dp"
+            android:layout_marginTop="21dp"
+            android:id="@+id/a"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView4"
+            android:layout_toEndOf="@+id/imageView4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp. 2000"
+            android:textSize="14dp"
+            android:id="@+id/y"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="16dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/laywhite"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout3">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/background"
+            android:id="@+id/imageView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku Anda"
+            android:textSize="14dp"
+            android:layout_marginTop="21dp"
+            android:id="@+id/b"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView5"
+            android:layout_toEndOf="@+id/imageView5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp. 2000"
+            android:textSize="14dp"
+            android:id="@+id/x"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="16dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/laywhite"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_below="@+id/relativeLayout3"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/relativeLayout4">
+
+        <ImageView
+            android:layout_width="130dp"
+            android:layout_height="100dp"
+            android:src="@drawable/background"
+            android:id="@+id/imageView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Judul Buku Anda"
+            android:textSize="14dp"
+            android:layout_marginTop="21dp"
+            android:id="@+id/c"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imageView6"
+            android:layout_toEndOf="@+id/imageView6" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp. 2000"
+            android:textSize="14dp"
+            android:id="@+id/z"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="14dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="16dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

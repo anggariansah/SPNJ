@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    tools:context="com.example.angga.spnjl2.SignUp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@drawable/background"
+        android:id="@+id/rel1">
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rel1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-30dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="20dp"
+            android:background="@drawable/editsearch"
+            android:hint="Search"
+            android:id="@+id/search"
+            android:drawableLeft="@drawable/ic_search"/>
+
+        <ImageView
+            android:layout_below="@+id/search"
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/background"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/im1"/>
+
+        <ImageView
+            android:layout_below="@+id/im1"
+            android:layout_width="350dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/background"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>
